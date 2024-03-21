@@ -14,7 +14,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <button class="flex items-center max-sm:text-sm max-sm:px-3 max-sm:py-1 max-md:text-xl">
+  <button class="flex items-center max-md:text-xl">
     <i :class="icon">
     </i>
 
