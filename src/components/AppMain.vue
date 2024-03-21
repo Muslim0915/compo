@@ -128,7 +128,7 @@ const characteristicsOfProduct = ref([
             <div class="h-full w-[2px] bg-gray-200"></div>
             <div class="flex flex-col gap-8 flex-1">
               <h2 class="text-2xl font-bold">Характеристики</h2>
-              <div class="grid w-full gap-6 grid-cols-2 max-md:grid-cols-1">
+              <div class="grid w-full gap-6 grid-cols-2 max-sm:grid-cols-1">
                 <div
                     v-for="item in characteristicsOfProduct"
                     :key="item.id"
