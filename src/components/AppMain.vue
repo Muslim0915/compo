@@ -58,9 +58,9 @@ const characteristicsOfProduct = ref([
           <div class="w-full">
             <img alt="sneaker" class="w-full" src="@/assets/images/png/sneakers/sneaker-full-1.png">
           </div>
-          <div class="flex items-center gap-3">
+          <div class="flex items-center gap-3 max-sm:gap-1">
             <AppButton class="py-4 bg-blue-50 rounded text-blue-500 text-2xl px-2" icon=" fa-solid fa-chevron-left"/>
-            <div v-for="item in sneakerIcons" :key="item.id">
+            <div v-for="item in sneakerIcons" :key="item.id" class="rounded-xl overflow-hidden">
               <img :alt="item.alt" :src="`src/assets/images/png/sneakers/small/${item.path}`"/>
             </div>
             <AppButton class="py-4 bg-blue-50 rounded text-blue-500 text-2xl px-2" icon=" fa-solid fa-chevron-right"/>
